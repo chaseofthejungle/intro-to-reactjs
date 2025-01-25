@@ -22,12 +22,16 @@ export default HelloWorldApp;
 ```
 
 <hr />
+
+## Components and Elements
   
-**What exactly are 'components'?:** A ReactJS component is a piece of code that I can reuse throughout an application. There are all sorts of possibilities for what ReactJS components can be--buttons, textboxes, and text headings, for example. This reuse of code slices allows for apps to be developed quicker and perform faster.
+**What exactly are 'components'?:** A ReactJS component is a piece of code that can be reused throughout an application. There are many possibilities for what ReactJS components can be--buttons, textboxes, and text headings, for example. This reuse of code slices allows for apps to be developed quicker and perform faster.
   
 **What about 'single-page apps'?:** Simply put, these are apps in which clicking on elements, such as navigation menu items and various links, does not result in reloading of the app as a whole. Instead, *the only reloaded content is the body of the freshly requested section*. For an example of this, consider a movie and/or television streaming service, such as Hulu or Netflix. The use of a single-page app system allows for users to watch their streaming media content without reloading entire pages.
   
 <hr />
+  
+## Optimization and Pitfalls
   
 **How is ReactJS Optimized?:** Some of the ReactJS features and techniques that benefit UI/UX developers include...
   
