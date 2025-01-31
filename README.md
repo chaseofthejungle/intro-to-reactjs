@@ -3,8 +3,16 @@
 **Definition/Overview:** ReactJS was developed by Facebook (now *Meta*) as a client-side JavaScript (JS) library. It is utilized by developers to build *single-page apps* and customize interactive user interfaces (UIs) via highly reusable and flexible web *components*. The relatively light learning curve (in comparison to a heavier JS framework, such as AngularJS) of ReactJS assists in optimizing UIs and their associated User Experience (UX) potential.
   
 ReactJS also utilizes a JavaScription syntax extension known as JavaScript XML, or 'JSX'. It combines JS and HTML scripting within individual files.
+
+#### Table of Contents:
+
+1. 'Hello World' Code Example
+2. Components and Elements
+3. Optimization and Pitfalls
   
-A simple 'Hello World!' ReactJS app might look like...  
+<hr />
+
+## 1. 'Hello World' Code Example 
 
 ```
 // projects/HelloWorldApp.jsx
@@ -23,7 +31,7 @@ export default HelloWorldApp;
 
 <hr />
 
-## Components and Elements
+## 2. Components and Elements
   
 **What exactly are 'components'?:** A ReactJS component is a piece of code that can be reused throughout an application. There are many possibilities for what ReactJS components can be--buttons, textboxes, and text headings, for example. This reuse of code slices allows for apps to be developed quicker and perform faster.
   
@@ -31,7 +39,7 @@ export default HelloWorldApp;
   
 <hr />
   
-## Optimization and Pitfalls
+## 3. Optimization and Pitfalls
   
 **How is ReactJS Optimized?:** Some of the ReactJS features and techniques that benefit UI/UX developers include...
   
