@@ -6,13 +6,13 @@ ReactJS also utilizes a JavaScription syntax extension known as JavaScript XML, 
 
 #### Table of Contents:
 
-1. 'Hello World' Code Example
-2. Components and Elements
-3. Optimization and Pitfalls
+1. ['Hello World' Code Example](#hello-world)
+2. [Components and Elements](#components-and-elements)
+3. [Optimization and Pitfalls](#optimization-and-pitfalls)
   
 <hr />
 
-## 1. 'Hello World' Code Example 
+## <a name="hello-world">1. 'Hello World' Code Example</a>
 
 ```
 // projects/HelloWorldApp.jsx
@@ -31,7 +31,7 @@ export default HelloWorldApp;
 
 <hr />
 
-## 2. Components and Elements
+## <a name="components-and-elements">2. Components and Elements</a>
   
 **What exactly are 'components'?:** A ReactJS component is a piece of code that can be reused throughout an application. There are many possibilities for what ReactJS components can be--buttons, textboxes, and text headings, for example. This reuse of code slices allows for apps to be developed quicker and perform faster.
   
@@ -39,7 +39,7 @@ export default HelloWorldApp;
   
 <hr />
   
-## 3. Optimization and Pitfalls
+## <a name="optimization-and-pitfalls">3. Optimization and Pitfalls</a>
   
 **How is ReactJS Optimized?:** Some of the ReactJS features and techniques that benefit UI/UX developers include...
   
