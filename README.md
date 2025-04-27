@@ -75,9 +75,10 @@ export default HelloWorldApp;
   
 ## 4. <a name="supplemental">Supplemental Resources</a>
   
-* [Intro to MERN and MEAN Stack Overview Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)  
-* [JavaScript Event Handling Guide](https://github.com/chaseofthejungle/js-event-handling-guide)  
-
+* *[Intro to MERN and MEAN Stack Overview Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)*  
+* *[JavaScript Event Handling Guide](https://github.com/chaseofthejungle/js-event-handling-guide)*  
+* *[ReactJS Official Website](https://react.dev/)*  
+  
 <hr />
   
 TODO: Add comparison of ReactJS to AngularJS and Next.js.
