@@ -9,7 +9,8 @@ ReactJS also utilizes a JavaScription syntax extension known as JavaScript XML, 
 1. ['Hello World' Code Example](#hello-world)
 2. [Components and Elements](#components-and-elements)
 3. [Optimization and Pitfalls](#optimization-and-pitfalls)
-4. [Supplemental Resources](#supplemental)
+4. [Next.js](#nextjs)
+5. [Supplemental Resources](#supplemental)
   
 <hr />
 
@@ -73,12 +74,14 @@ export default HelloWorldApp;
   
 <hr />
   
-## 4. <a name="supplemental">Supplemental Resources</a>
+## 4. <a name="nextjs">Next.js</a>
+  
+(TODO)
+  
+<hr />
+  
+## 5. <a name="supplemental">Supplemental Resources</a>
   
 * *[Intro to MERN and MEAN Stack Overview Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)*  
 * *[JavaScript Event Handling Guide](https://github.com/chaseofthejungle/js-event-handling-guide)*  
 * *[ReactJS Official Website](https://react.dev/)*  
-  
-<hr />
-  
-TODO: Add comparison of ReactJS to AngularJS and Next.js.
