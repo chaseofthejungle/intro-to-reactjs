@@ -76,7 +76,7 @@ export default HelloWorldApp;
   
 ## 4. <a name="nextjs">Next.js</a>
   
-(TODO)
+While ReactJS is a JavaScript library utilized by app developers to build interactive UIs via reusable (and highly flexible) components, *Next.js* is a specific ReactJS-based framework that directly provides extra, built-in functionalities (e.g., API routes, CSR, SSG, SSR) for optimizing full-stack development. Thus, high performance app rendering is more readily provided by Next.js, while native ReactJS mostly relies on client-side rendering and would need libraries to be imported and configured to achieve Next.js's built-in extra functionalities.
   
 <hr />
   
