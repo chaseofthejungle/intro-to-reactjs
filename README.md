@@ -10,7 +10,8 @@ ReactJS also utilizes a JavaScription syntax extension known as JavaScript XML, 
 2. [Components and Elements](#components-and-elements)
 3. [Optimization and Pitfalls](#optimization-and-pitfalls)
 4. [Next.js](#nextjs)
-5. [Supplemental Resources](#supplemental)
+5. [ReactJS vs. Angular vs. Vue.js](#rav)
+6. [Supplemental Resources](#supplemental)
   
 <hr />
 
@@ -81,8 +82,21 @@ While ReactJS is a JavaScript library utilized by app developers to build intera
 **Use Case:** *ReactJS* without Next.js may be a more practical option for developing single-page apps that require UI components for interactive, dynamic, or otherwise complex purposes, while *Next.js* integration may be advisable for highly pre-rendered apps, or blogs, e-commerce stores, or otherwise SEO relevant sites.
   
 <hr />
+
+## 5. <a name="rav">ReactJS vs. Angular vs. Vue.js</a>
   
-## 5. <a name="supplemental">Supplemental Resources</a>
+| &nbsp; | ReactJS | Angular | Vue.js |
+| ---------- | :----------: | :----------: | :----------: |
+| **Definition** | JS Library | JS Framework | JS Framework |
+| **DOM Type** | Virtual | Real (with Optimization) | Virtual | 
+| **(Relative) Learning Curve** | Light | Heavier | Lightest |
+| **(Primary) Languages** | JS, JSX | JS, TypeScript, HTML, CSS | JS, HTML, CSS |
+| **Primary Use Case** | Interactive Single-Page Apps | Complex Enterprise Apps | Varied/Versatile |
+
+
+<hr />
+  
+## 6. <a name="supplemental">Supplemental Resources</a>
   
 * *[Intro to MERN and MEAN Stack Overview Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)*  
 * *[JavaScript Event Handling Guide](https://github.com/chaseofthejungle/js-event-handling-guide)*  
