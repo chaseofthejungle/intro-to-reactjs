@@ -4,14 +4,15 @@
   
 ReactJS also utilizes a JavaScription syntax extension known as JavaScript XML, or 'JSX'. It combines JS and HTML scripting within individual files.
 
-#### Table of Contents:
+#### Table of Contents
 
 1. ['Hello World' Code Example](#hello-world)
-2. [Components and Elements](#components-and-elements)
-3. [Optimization and Pitfalls](#optimization-and-pitfalls)
-4. [Next.js](#nextjs)
-5. [ReactJS vs. Angular vs. Vue.js](#rav)
-6. [Supplemental Resources](#supplemental)
+2. [Components and Elements Overview](#components-and-elements)
+3. [React Component Lifecycle](#component-life-cycle)
+4. [Optimization and Pitfalls](#optimization-and-pitfalls)
+5. [Next.js](#nextjs)
+6. [ReactJS vs. Angular vs. Vue.js](#rav)
+7. [Supplemental Resources](#supplemental)
   
 <hr />
 
@@ -34,7 +35,7 @@ export default HelloWorldApp;
 
 <hr />
 
-## <a name="components-and-elements">2. Components and Elements</a>
+## <a name="components-and-elements">2. Components and Elements Overview</a>
   
 **What exactly are 'components'?:** A ReactJS component is a piece of code that can be reused throughout an application. There are many possibilities for what ReactJS components can be--buttons, textboxes, and text headings, for example. This reuse of code slices allows for apps to be developed quicker and perform faster.
   
@@ -42,7 +43,13 @@ export default HelloWorldApp;
   
 <hr />
   
-## <a name="optimization-and-pitfalls">3. Optimization and Pitfalls</a>
+## <a name="component-life-cycle">3. React Component Lifecycle</a>
+  
+(TODO)
+
+<hr />
+  
+## <a name="optimization-and-pitfalls">4. Optimization and Pitfalls</a>
   
 **How is ReactJS Optimized?:** Some of the ReactJS features and techniques that benefit UI/UX developers include...
   
@@ -75,7 +82,7 @@ export default HelloWorldApp;
   
 <hr />
   
-## 4. <a name="nextjs">Next.js</a>
+## 5. <a name="nextjs">Next.js</a>
   
 While ReactJS is a JavaScript library utilized by app developers to build interactive UIs via reusable (and highly flexible) components, *Next.js* is a specific ReactJS-based framework that directly provides extra, built-in functionalities (e.g., API routes, CSR, SSG, SSR) for optimizing full-stack development. Thus, high performance app rendering is more readily provided by Next.js, while native ReactJS mostly relies on client-side rendering and would need libraries to be imported and configured to achieve Next.js's built-in extra functionalities.
   
@@ -83,7 +90,7 @@ While ReactJS is a JavaScript library utilized by app developers to build intera
   
 <hr />
 
-## 5. <a name="rav">ReactJS vs. Angular vs. Vue.js</a>
+## 6. <a name="rav">ReactJS vs. Angular vs. Vue.js</a>
   
 | &nbsp; | ReactJS | Angular | Vue.js |
 | ---------- | :----------: | :----------: | :----------: |
@@ -96,7 +103,7 @@ While ReactJS is a JavaScript library utilized by app developers to build intera
 
 <hr />
   
-## 6. <a name="supplemental">Supplemental Resources</a>
+## 7. <a name="supplemental">Supplemental Resources</a>
   
 * *[Intro to MERN and MEAN Stack Overview Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)*  
 * *[JavaScript Event Handling Guide](https://github.com/chaseofthejungle/js-event-handling-guide)*  
