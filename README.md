@@ -45,7 +45,17 @@ export default HelloWorldApp;
   
 ## <a name="component-life-cycle">3. React Component Lifecycle</a>
   
-(TODO)
+React components undergo three core phases from the time of their creation to being discarded from the Document Object Model (the DOM, which is the interface that provides a representation of HTML/XML documents). These phases assist with performance optimization, side effect handling, and controlling component behaviors.
+
+1) **Mounting Phase:** Initiated at the time that a component is created and initially inserted into the DOM.
+  *Class components* rely on methods (e.g., constructor(), render(), componentDidMount()).
+  *Functional components* rely on render and useEffect hook for handling mounting.
+2) **Updating Phase:** Happens when component states or props update, causing the component to be rendered again.
+  *Class components* rely on methods (e.g., shouldComponentUpdate(), render(), componentDidUpdate()).
+  *Functional components* rely on the useEffect hook and various dependencies, in response to updates of component state and props.
+3) **Unmounting Phase:** Happens in response to a component being discarded from the DOM.
+  *Class components* rely on the componentWillUnmount() method being called prior to the component being discarded, so that components can be properly cleaned up or reset (e.g., discarding event listeners, resetting timers).
+  *Functional components* rely on the useEffect hook for cleaning at the time of the component being unmounted.
 
 <hr />
   
