@@ -92,7 +92,7 @@ While ReactJS is a JavaScript library utilized by app developers to build intera
 
 ## 6. <a name="rav">ReactJS vs. Angular vs. Vue.js</a>
   
-| &nbsp; | ReactJS | Angular | Vue.js |
+| &nbsp; | *[ReactJS](https://react.dev/)* | *[Angular](https://angular.dev/)* | *[Vue.js](https://vuejs.org/)* |
 | ---------- | :----------: | :----------: | :----------: |
 | **Definition** | JS Library | JS Framework | JS Framework |
 | **DOM Type** | Virtual | Real (with Optimization) | Virtual | 
