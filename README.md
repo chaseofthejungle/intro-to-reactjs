@@ -58,21 +58,15 @@ React components undergo three core phases from the time of their creation to be
 ## <a name="optimization-and-pitfalls">4. Optimization and Pitfalls</a>
   
 **How is ReactJS Optimized?:** Some of the ReactJS features and techniques that benefit UI/UX developers include...
-  
-* **Debouncing and Throttling**
-  + This limits when functions execute, and how often.
-* **Functional Pattern Adherence**
-  + This assists in handling complex code/logic, potentially reducing errors and increasing performance.
-* **Lazy Loading**
-  + This limits component loading to only when it is needed.
-* **List Virtualization**
-  + This limits the rendering of list items to only when they are available on screen to users.
-* **Memoization**
-  + This caches responses for future re-use, increasing performance when serving clients web assets.
-    - Consider using memoization tools such as *useMemo* and *React.memo*.
-* **useReducer() and useTransition() Hook Leveraging/Utilization**
-  + useReducer() defines how states are to be updated.
-  + useTransition() limits updates until when they are needed, potentially increasing performance.
+
+| Feature | Explanation |
+| :---: | :---: |
+| **Debouncing and Throttling** | This limits when functions execute, and how often. |
+| **Functional Pattern Adherence** | This assists in handling complex code/logic, potentially reducing errors and increasing performance. |
+| **Lazy Loading** | This limits component loading to only when it is needed. |
+| **List Virtualization** | This limits the rendering of list items to only when they are available on screen to users. |
+| **Memoization** | This caches responses for future re-use, increasing performance when serving clients web assets. Consider using memoization tools such as *useMemo* and *React.memo*. |
+| **useReducer() and useTransition() Hook Leveraging/Utilization** | useReducer() defines how states are to be updated. useTransition() limits updates until when they are needed, potentially increasing performance. |
 
 **Common Mistakes in ReactJS Development include:**  
 * **Forgetting to Use Keys in Lists**
