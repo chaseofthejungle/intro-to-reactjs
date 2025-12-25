@@ -58,6 +58,8 @@ React components undergo three core phases from the time of their creation to be
 ## <a name="optimization-and-pitfalls">4. Optimization and Pitfalls</a>
   
 **How is ReactJS Optimized?:** Some of the ReactJS features and techniques that benefit UI/UX developers include...
+  
+<br />
 
 | Feature | Explanation |
 | :---: | :---: |
@@ -68,18 +70,20 @@ React components undergo three core phases from the time of their creation to be
 | **Memoization** | This caches responses for future re-use, increasing performance when serving clients web assets. Consider using memoization tools such as *useMemo* and *React.memo*. |
 | **useReducer() and useTransition() Hook Leveraging/Utilization** | useReducer() defines how states are to be updated. useTransition() limits updates until when they are needed, potentially increasing performance. |
 
+<br />
+
 **Common Mistakes in ReactJS Development include:**  
-* **Forgetting to Use Keys in Lists**
-  + Keys detect added, modified, and removed items.
-* **Imprecise Component Structure**
-  + If logic is spread across components, updating/maintaining components and component reuse can become a mess. 
-* **Mutating State Directly**
-  + This can cause errors and other unintended behaviors. Thus, it is better practice to update state immutably.
-* **Overlooking Performance Optimization Techniques**
-  + This includes the principles outlined in the above section.
-* **Overreliance on Inline Functions**
-  + This can cause extraneous rerendering, and therefore unnecessary performance costs.
   
+<br />
+
+| Error | Why It Is Bad |
+| :---: | :---: |
+| **Forgetting to Use Keys in Lists** | Keys detect added, modified, and removed items. |
+| **Imprecise Component Structure** | If logic is spread across components, updating/maintaining components and component reuse can become a mess. |
+| **Mutating State Directly** | This can cause errors and other unintended behaviors. Thus, it is better practice to update state immutably. |
+| **Overlooking Performance Optimization Techniques** | This includes the principles outlined in the above section. |
+| **Overreliance on Inline Functions** | This can cause extraneous rerendering, and therefore unnecessary performance costs. |
+   
 <hr />
   
 ## 5. <a name="nextjs">Next.js</a>
